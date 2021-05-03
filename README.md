@@ -1,4 +1,6 @@
 # dynamo-scan
+[![Build](https://github.com/gregwhitaker/dynamo-scan/actions/workflows/gradle.yml/badge.svg)](https://github.com/gregwhitaker/dynamo-scan/actions/workflows/gradle.yml)
+
 Library for scanning records in AWS [DynamoDB](https://aws.amazon.com/dynamodb/) tables.
 
 ## License
