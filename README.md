@@ -3,6 +3,12 @@
 
 Library for scanning records in AWS [DynamoDB](https://aws.amazon.com/dynamodb/) tables.
 
+## Examples
+Please see the included [example project](dynamo-scan-example) for a demonstration on configuring and running dynamo-scan.
+
+## Bugs and Feedback
+For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/dynamo-scan/issues).
+
 ## License
 MIT License
 
