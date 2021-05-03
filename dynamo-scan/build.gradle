@@ -1,0 +1,10 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    api libs.awssdk.dynamodb
+    api libs.reactor.core
+
+    implementation libs.slf4j.api
+}

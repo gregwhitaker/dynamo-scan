@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id "com.gradle.enterprise"  version "3.6.1"
+}
+
+enableFeaturePreview("VERSION_CATALOGS")
+
+rootProject.name = 'dynamo-scan'
+
+include 'dynamo-scan'
+include 'dynamo-scan-example'

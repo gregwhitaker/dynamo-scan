@@ -1,0 +1,26 @@
+
+#
+# Dependency Version Catalog
+#
+
+## Versions
+[versions]
+## Implementation
+reactor = "3.4.5"
+slf4j = "1.7.30"
+awssdk = "1.11.447"
+
+## Test
+junit = "5.3.1"
+
+## Libraries
+[libraries]
+## Implementation
+awssdk-dynamodb = { module = "com.amazonaws:aws-java-sdk-dynamodb", version.ref = "awssdk" }
+reactor-core = { module = "io.projectreactor:reactor-core", version.ref = "reactor" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+
+## Test
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
