@@ -5,10 +5,19 @@ plugins {
 allprojects {
     apply plugin: "idea"
 
+    // Project Configuration
     group = "com.github.gregwhitaker"
     version = "0.1.0"
 
+    // Dependency Management
     repositories {
         mavenCentral()
+        maven {
+            url = 'https://maven.pkg.github.com/gregwhitaker/dynamo-scan'
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("GPR_USER")
+                password = project.findProperty("gpr.key") ?: System.getenv("GPR_API_KEY")
+            }
+        }
     }
 }

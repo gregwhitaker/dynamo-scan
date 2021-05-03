@@ -12,6 +12,7 @@ plugins {
 }
 
 // Project Configuration
+project.description = "Example of using the dynamo-scan library to scan records from an AWS DynamoDB table."
 mainClassName = "example.Application"
 
 dependencies {
