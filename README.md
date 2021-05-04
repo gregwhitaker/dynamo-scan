@@ -3,6 +3,9 @@
 
 Library for scanning records in AWS [DynamoDB](https://aws.amazon.com/dynamodb/) tables.
 
+Dynamo-scan makes it easy to setup a parallel scan of records within a DynamoDB table and receive the records as a stream of
+items using [Project Reactor](https://projectreactor.io/).
+
 ## Examples
 Please see the included [example project](dynamo-scan-example) for a demonstration on configuring and running dynamo-scan.
 
